@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  min-width: 250px;
+  background: #38404B;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+h2{
+    text-shadow: 2px 2px 1px #000000,
+                -2px -2px 1px #000000;
+    font-size: 70px;
+    font-family:  Comic sans MS;            
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li {
+  cursor: pointer;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: rgba(0,0,0,0.0);
+  font-size: 18px;
+  color: #fefefe;
+  transition: 1s;
+  box-shadow: 4px 4px 10px #1f242b,
+             -4px -4px 10px #5a636f;
+
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li:nth-child(odd) {
+  background: rgba(0,0,0,0.0);
+}
+
+ul li:hover {
+  background: #5a636f;
+  box-shadow:inset 5px 5px 10px #1f242b,
+             -5px -5px 10px #5a636f;
+}
+
+ul li.checked {
+  background: #1f242b;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(50deg);
+  height: 15px;
+  width: 7px;
+}
+
+.close {
+    font-size: 30px;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+  top: 0;
+  font-weight: 900;
+  text-shadow: 1.2px 1.2px 1px ;
+  padding: 6px 16px 12px 12px;
+  transition: 1s;
+}
+
+.close:hover {
+  color: white;
+}
+
+
+.header {
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  background: none;
+  margin-top: 15px;
+  margin-left: 2.5%;
+  border: none;
+  margin-right: 2%;
+  border-radius: 10px;
+  width: 72.5%;
+  color: #fefefe;
+  box-shadow: inset 2px 2px 5px #1f242b,
+              inset -2px -2px 5px #1f242b;
+  padding: 15px;
+  float: left;
+  font-size: 16px;
+  transition: 1s;
+}
+input::placeholder{
+    color: #fefefe;
+}
+.one{
+    margin-top: -0px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 20%;
+  margin-top: 20px;
+  background: none;
+  font-weight: 900;
+  color: #fff;
+  box-shadow: 4px 4px 10px #1d1d1d,
+  -4px -4px 10px #1d1d1d;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.addBtn:hover {
+  background-color: #1f242b;
+}
