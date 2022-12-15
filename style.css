@@ -1,0 +1,58 @@
+/* ....................
+     05|12|2022      
+     time: 20:30     
+..................... */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.con{
+    margin: 250px; 
+    margin-left: 500px;
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 35px;
+    height: 14rem;
+    padding-top: 0.1%;
+}
+button{
+    border: none;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px ;
+    width: 60px;
+    background-color: #ffffffff;
+    font-weight: 900;
+    font-size: 40px;
+    height: 60px;
+    margin-left: 20px;
+}
+button:active{
+    box-shadow: inset -1px -1px 3px;
+}
+.cal{
+    margin-top: 8%;
+    margin-left: 6%;
+}
+#inc{
+    padding-top: -20px;
+    margin-top: 5px;
+}
+#dec{
+    margin-bottom: 5px;
+}
+p{
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 30px;
+    font-family:monospace;
+    font-size: 50px;
+    text-align: center ;
+}
+/* ....................
+     05|12|2022      
+     time: 21:30     
+..................... */
